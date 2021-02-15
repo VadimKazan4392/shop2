@@ -1,0 +1,40 @@
+.body {
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-rows: 40px 1fr 40px;
+}
+
+.content__inner {
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    margin-bottom: 5px;
+    height: 500px;
+}
+
+.header {
+    border-radius: 5px;
+    border: 2px solid aqua;
+    margin-bottom: 4px;
+}
+.sidebar {
+    border: 2px solid aqua;
+    height: 100%;
+}
+.sidebar__menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    justify-content: center;
+    text-align: center;
+    border: 2px solid aqua;
+}
+
+.footer {
+    display: block;
+    margin-top: 60px;
+}
+
+
